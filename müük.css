@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(assets/paws.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  background: brown;
+  text-align: center;
+}
+
+.nav li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 40px;
+  font-size: 30px;
+}
+
+.title {
+  margin: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.read {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.esimene {
+  background: url(assets/corgi.jpg) no-repeat center;
+  margin: auto;
+  min-width: 500px;
+  height: 400px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
