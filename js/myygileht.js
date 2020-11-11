@@ -1,3 +1,6 @@
+
+//Andmed müügilehe jaoks
+
 const data = [
     {
         "name": "corgi",
@@ -91,11 +94,14 @@ const data = [
     }
 ];
 
+
+//Tellima nupu vajutuse funktsioon
 const mineKontaktiLehele = () => {
     location.href = 'kontakt.html';
 
 };
 
+//Kasutab jqueri
 $(() => {
 
     data.forEach(koer => {
