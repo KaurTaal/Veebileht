@@ -6,6 +6,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
+    font-family: "Courier New";
 }
 
 html,
@@ -36,6 +37,11 @@ body {
     font-size: 20px;
     text-decoration: none;
     color: black;
+    transition: 0.5s;
+}
+
+.menyy-link:hover{
+    color: white;
 }
 
 #sisu-konteiner {
@@ -45,15 +51,20 @@ body {
     height: 90%;
 }
 
-h1{
+
+.header{
+    style: height 10%;
     text-align: center;
+    padding-bottom: 100px;
+    font-size: 40px;
 }
+
 
 #kast{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 200px;
     width: 100%;
     text-align: center;
 
@@ -62,28 +73,65 @@ h1{
 .koera-objekt{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     gap: 10px;
     border: solid;
     border-width: 3px;
     border-color: gray;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #ffffff;
     background-image: linear-gradient(315deg, #ffffff 0%, #d8896b 74%);
-
-
 }
 
 
 .koera-pilt{
     height: auto;
     max-width: 100%;
+    transition: transform 2s;
+
 }
 
-button{
-    background-color: aqua;
-    border: none;
-    height: 30px;
-    font-weight: 900;
-    font-size: 15px;
+.koera-objekt .koera-pilt:hover{
+    transform: scale(1.05);
 }
+
+.koera-objekt .info{
+    position: absolute;
+    margin-top: 35px;
+    padding: 20px;
+    text-align: center;
+    transform: scaleY(0);
+    transition: transform .5s;
+    background: rgba(0,0,0,.8);
+    height: 337px;
+    width: 210px;
+}
+
+.koera-objekt:hover .info{
+    transform: scaleY(1);
+}
+
+.sisu h2{
+    color: white;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.tekst{
+    font-size: 25px;
+    color: white;
+}
+
+#btn {
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+    border: none;
+}
+
+#btn:hover{
+    color: white;
+}
+
