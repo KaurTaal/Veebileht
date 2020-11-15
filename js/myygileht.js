@@ -1,4 +1,3 @@
-
 //Andmed müügilehe jaoks
 
 const data = [
