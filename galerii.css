@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url(assets/taust_nc.jpg) no-repeat center center fixed;
+    background: url(assets/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,9 +29,9 @@ header {
 }
 
 img {
-	height: 200px;
+	height: 300px;
 	width: 80%;
-	margin: 10px;
+	margin: 50px;
 	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,7 +39,7 @@ img {
 }
 
 img:hover{
-	transition: transform .3s;
+	transition: transform .5s;
 	transform: scale(1.1);
 }
 
