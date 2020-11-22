@@ -1,5 +1,5 @@
 body {
-    background: url(assets/paws.jpg) no-repeat center center fixed;
+    background: url(assets/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,49 +16,8 @@ body {
     height: 100%;
     margin: unset;
     flex-direction: column;
-    gap: 30px;
 }
 
-
-#header-konteiner {
-    top: 0;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background: brown;
-    justify-content: center;
-    padding: 20px 20px 20px 10px;
-}
-
-.menyy-link {
-    height: 100%;
-    align-items: center;
-    color: black;
-    font-size: 20px;
-    margin-right: 45px;
-    text-decoration: none;
-    position: relative;
-}
-
-.menyy-link:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-bottom: 2px solid white;
-    transform: scaleY(2);
-    opacity: 0;
-    transition: 0.5s;
-}
-
-
-.menyy-link:hover:before {
-    transform: scaleY(1);
-    opacity: 1;
-}
 
 #sisu-konteiner {
     padding-top: 100px;
@@ -72,8 +31,9 @@ body {
 .header {
     style: height 10%;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     font-size: 40px;
+    color: royalblue;
 }
 
 
@@ -104,13 +64,9 @@ body {
 .koera-pilt {
     height: auto;
     max-width: 100%;
-    transition: transform 2s;
 
 }
 
-.koera-objekt .koera-pilt:hover {
-    transform: scale(1.05);
-}
 
 .koera-objekt .info {
     position: absolute;

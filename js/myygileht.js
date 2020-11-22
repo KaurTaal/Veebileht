@@ -5,25 +5,25 @@ const data = [
         "name": "Corgi",
         "image": "./assets/corgi1.jpg",
         "hind": 900,
-        "info": "The Corgi personality ranges from happy, smart, fun-loving, loyal, stubborn, and playful."
+        "info": "The Corgi personalitun-loving, loyal, stubborn, and playful."
     },
     {
         "name": "Chow-Chow",
         "image": "./assets/chow-chow.jpg",
         "hind": 870,
-        "info": "Chows are powerful, compactly built dogs standing as high as 20 inches at the shoulder."
+        "info": "Chows are powerful, compactly bg as high as 2 at the shoulder."
     },
     {
         "name": "Taks",
         "image": "./assets/taks.jpg",
         "hind": 1000,
-        "info": "The Dachshund is described as clever, lively, and courageous to the point of rashness."
+        "info": "The Dachshund is desurageous to the point of rashness."
     },
     {
         "name": "Golden Retriever",
         "image": "./assets/golden-retriever.jpg",
         "hind": 1000,
-        "info": "The golden retriever is even-tempered, intelligent and affectionate."
+        "info": "The golden retrieelligent and affectionate."
     },
     {
         "name": "Husky",

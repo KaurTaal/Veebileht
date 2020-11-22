@@ -1,11 +1,21 @@
 body {
-    margin: 0px;
-    padding: 0px;
     background: url(assets/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: "Courier New";
+    overflow-x: hidden;
+}
+
+html,
+body {
+    display: flex;
+    height: 100%;
+    margin: unset;
+    flex-direction: column;
 }
 
 header {
@@ -14,6 +24,23 @@ header {
     border-radius: 25px;
 }
 
+
+#kast {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.pildikesed {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*
 .peariba li {
     margin: 10px;
     padding: 10px;
@@ -28,6 +55,9 @@ header {
     border-radius: 5px;
 }
 
+*/
+
+
 img {
 	height: 300px;
 	width: 250px;
@@ -36,6 +66,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+    transition: .5s;
 }
 
 img:hover{
@@ -52,3 +83,4 @@ img:hover{
     float: left;
 	width: 25%;
 }
+
