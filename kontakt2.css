@@ -67,7 +67,6 @@ body {
     background: transparent;
 }
 
-
 .form input,
 textarea,
 button {
@@ -76,5 +75,3 @@ button {
     height: 35px;
     border-radius: 10px;
 }
-
-
