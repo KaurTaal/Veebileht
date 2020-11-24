@@ -1,48 +1,73 @@
+//Andmed galerii jaoks
+
 const pildid = [
     {
-        'pilt': "./assets/corgi1.jpg"
+        'pilt': "./andmed/corgi.jpg"
     },
     {
-        'pilt': "assets/bern_cc.jpg"
+        'pilt': "andmed/bern_cc.jpg"
     },
     {
-        'pilt': "assets/tibetan_mastiff_cc.jpg"
+        'pilt': "andmed/tibetan_mastiff_cc.jpg"
     },
     {
-        'pilt': "assets/merle_cc.jpg"
+        'pilt': "andmed/merle_cc.jpg"
     },
     {
-        'pilt': "assets/bern2_cc.jpg"
+        'pilt': "andmed/bern2_cc.jpg"
     },
     {
-        'pilt': "assets/mastiff_taust_cc.jpg"
+        'pilt': "andmed/mastiff_taust_cc.jpg"
     },
     {
-        'pilt': "assets/merle2_cc.jpg"
+        'pilt': "andmed/merle2_cc.jpg"
     },
     {
-        'pilt': "assets/entlebuhh_cc.jpg"
+        'pilt': "andmed/entlebuhh_cc.jpg"
     },
     {
-        'pilt': "assets/merle_taust_cc.jpg"
+        'pilt': "andmed/merle_taust_cc.jpg"
     },
     {
-        'pilt': "assets/husky_cc.jpg"
+        'pilt': "andmed/husky_cc.jpg"
     },
     {
-        'pilt': "assets/entlebuhh2_cc.jpg"
+        'pilt': "andmed/german-shepherd.jpg"
     },
     {
-        'pilt': "assets/entlebuhh2_cc.jpg"
+        'pilt': "andmed/taks.jpg"
     },
     {
-        'pilt': "assets/entlebuhh2_cc.jpg"
+        'pilt': "andmed/golden-retriever.jpg"
     },
     {
-        'pilt': "assets/entlebuhh2_cc.jpg"
-    }
+        'pilt': "andmed/husky.jpg"
+    },
+    {
+        'pilt': "andmed/bulldog.jpg"
+    },
+    {
+        'pilt': "andmed/samoyed.jpg"
+    },
+    {
+        'pilt': "andmed/pug.jpg"
+    },
+    {
+        'pilt': "andmed/pug.jpg"
+    },
+    {
+        'pilt': "andmed/pug.jpg"
+    },
+    {
+        'pilt': "andmed/pug.jpg"
+    },
+    {
+        'pilt': "andmed/pug.jpg"
+    },
 ];
 
+//Kasutab jqueri
+//Loob jupi koodi iga pildi jaoks.
 $(() => {
 
     pildid.forEach(pildike => {

@@ -3,51 +3,51 @@
 const data = [
     {
         "name": "Corgi",
-        "image": "./assets/corgi1.jpg",
-        "hind": 900,
-        "info": "The Corgi personalitun-loving, loyal, stubborn, and playful."
+        "image": "./andmed/corgi.jpg",
+        "hind": 1000,
+        "info": "Energilisus, rõõmsameelsus, vastupidavus ja arukus teevad Corgist usaldusväärse, kindla ja valvsa sõbra."
     },
     {
-        "name": "Chow-Chow",
-        "image": "./assets/chow-chow.jpg",
-        "hind": 870,
-        "info": "Chows are powerful, compactly bg as high as 2 at the shoulder."
+        "name": "Saksa lambakoer",
+        "image": "./andmed/german-shepherd.jpg",
+        "hind": 1000,
+        "info": "Saksa lambakoer on jõuline, tugevate lihaste, tiheda karvkatte ja ülihea haistmismeelega."
     },
     {
         "name": "Taks",
-        "image": "./assets/taks.jpg",
+        "image": "./andmed/taks.jpg",
         "hind": 1000,
-        "info": "The Dachshund is desurageous to the point of rashness."
+        "info": "Taks on truu koer, kes valib perest välja ühe inimese, keda ta erilise hoolega hoiab."
     },
     {
-        "name": "Golden Retriever",
-        "image": "./assets/golden-retriever.jpg",
+        "name": "Kuldne retriiver",
+        "image": "./andmed/golden-retriever.jpg",
         "hind": 1000,
-        "info": "The golden retrieelligent and affectionate."
+        "info": "Sõbraliku ja leebe iseloomu tõttu ei sobi ta valvekoeraks, kuid on väga populaarne lemmikloom."
     },
     {
         "name": "Husky",
-        "image": "./assets/husky.jpg",
-        "hind": 2000,
-        "info": "Siberian Huskies are free-spirited and typically good-natured with people. "
+        "image": "./andmed/husky.jpg",
+        "hind": 1000,
+        "info": "Husky on tuntud oma hea iseloomu poolest ja ta sobib suurepäraselt perekoeraks."
     },
     {
-        "name": "Bulldog",
-        "image": "./assets/bulldog.jpg",
-        "hind": 2000,
-        "info": "The Bulldog is a kind, affectionate, courageous dog with a tendency to be stubborn at times."
+        "name": "Buldog",
+        "image": "./andmed/bulldog.jpg",
+        "hind": 1000,
+        "info": "Buldog on rahuliku iseloomuga ja haugub harva."
     },
     {
-        "name": "Samoyed",
-        "image": "./assets/samoyed.jpg",
-        "hind": 2000,
-        "info": "Temperament: Adaptable, Friendly, Gentle."
+        "name": "Samojeed",
+        "image": "./andmed/samoyed.jpg",
+        "hind": 1000,
+        "info": "Samojeedi koer on sõbralik, avatud, reibas ja elav ning mõõdukalt arenenud jahikirega."
     },
     {
-        "name": "Pug",
-        "image": "./assets/pug.jpg",
-        "hind": 2000,
-        "info": "Pugs are happy and affectionate, loyal and"
+        "name": "Mops",
+        "image": "./andmed/pug.jpg",
+        "hind": 1000,
+        "info": "Iseloomult on mopsid stabiilse, tasakaaluka temperamedi ja vallatult sõbraliku iseloomuga."
     }
 
 ];
@@ -59,7 +59,9 @@ const mineKontaktiLehele = () => {
 
 };
 
+
 //Kasutab jqueri
+//Loob iga koera jaoks jupi htmli koodi
 $(() => {
 
     data.forEach(koer => {
@@ -83,3 +85,4 @@ $(() => {
 
     })
 });
+

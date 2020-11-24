@@ -1,5 +1,5 @@
 body {
-    background: url(assets/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
+    background: url(andmed/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,11 +69,11 @@ p.tyhi {
 }
 
 .taust1 {
-	background: url(assets/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
+	background: url(andmed/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
 	background-size: 100% 100%
 }
 
 .taust2 {
-	background: url(assets/merle_taust2_cc.jpg) no-repeat center center fixed;
+	background: url(andmed/merle_taust2_cc.jpg) no-repeat center center fixed;
 	background-size: 100% 100%
 }
