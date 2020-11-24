@@ -1,5 +1,5 @@
 body {
-    background: url(assets/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
+    background: url(andmed/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,7 @@ body {
 }
 
 #sisu-konteiner {
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -85,7 +85,7 @@ body {
 }
 
 .tekst {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -100,4 +100,33 @@ body {
 
 #btn:hover {
     color: white;
+}
+
+#btn:focus{
+    outline: none;
+}
+
+#otsing{
+    padding-top: 40px;
+    text-align: center;
+    border: none;
+}
+
+#sisend:focus{
+    outline: none;
+}
+
+#otsing input{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#nupp{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#nupp:focus{
+    outline: none;
 }
