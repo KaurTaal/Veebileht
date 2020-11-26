@@ -18,20 +18,12 @@ body {
     flex-direction: column;
 }
 
-header {
-    background: white;
-    text-align: center;
-    border-radius: 25px;
-}
-
-
 #kast {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
-
 }
 
 .pildikesed {
