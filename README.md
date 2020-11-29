@@ -3,9 +3,7 @@ Meie projekti eesmärgiks on luua veebileht, millelt on võimalik kasutajal enda
 Valmis leht koosneb avalehest, pildigaleriist, toodete valikust ja kontaktandmetest.
 
 Projekti tiimiliikmed:
-Mart-Mihkel Aun
-Kaur Taal
+Mart-Mihkel Aun,  Kaur Taal
 
 Tööjaotus:
-Mart: Avaleht ja galerii
-Kaur: Müügileht ja kontakt
+Mart: Avaleht ja galerii, Kaur: Müügileht ja kontakt
