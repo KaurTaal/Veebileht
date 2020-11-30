@@ -5,31 +5,31 @@ const data = [
         "name": "Corgi",
         "image": "./andmed/corgi.jpg",
         "hind": 1000,
-        "info": "Energilisus, rõõmsameelsus, vastupidavus ja arukus teevad Corgist usaldusväärse, kindla ja valvsa sõbra."
+        "info": "Corgi on sportlik, südamlik ja üliarmas."
     },
     {
         "name": "Saksa lambakoer",
         "image": "./andmed/german-shepherd.jpg",
         "hind": 1000,
-        "info": "Saksa lambakoer on jõuline, tugevate lihaste, tiheda karvkatte ja ülihea haistmismeelega."
+        "info": "Saksa lambakoer on jõuline, tugevate lihaste ja julge. Sobib suurepäraselt valvekoeraks."
     },
     {
         "name": "Taks",
         "image": "./andmed/taks.jpg",
         "hind": 1000,
-        "info": "Taks on truu koer, kes valib perest välja ühe inimese, keda ta erilise hoolega hoiab."
+        "info": "Taks on nutikas ja julge. Võib vahel olla jonnakas, kuid on inimese jaoks alati olemas."
     },
     {
         "name": "Kuldne retriiver",
         "image": "./andmed/golden-retriever.jpg",
         "hind": 1000,
-        "info": "Sõbraliku ja leebe iseloomu tõttu ei sobi ta valvekoeraks, kuid on väga populaarne lemmikloom."
+        "info": "Kuulus oma läikiva kullakarva poolest. Väga sõbralik ning ei sobi valvekoeraks."
     },
     {
         "name": "Husky",
         "image": "./andmed/husky.jpg",
         "hind": 1000,
-        "info": "Husky on tuntud oma hea iseloomu poolest ja ta sobib suurepäraselt perekoeraks."
+        "info": "Armastav ja heatahtlik. Saavad hästi läbi inimeste ja teiste koertega."
     },
     {
         "name": "Buldog",
@@ -41,13 +41,13 @@ const data = [
         "name": "Samojeed",
         "image": "./andmed/samoyed.jpg",
         "hind": 1000,
-        "info": "Samojeedi koer on sõbralik, avatud, reibas ja elav ning mõõdukalt arenenud jahikirega."
+        "info": "Samojeedi koer on ergas ja rõõmus. Suurepärane kaaslane laste jaoks."
     },
     {
         "name": "Mops",
         "image": "./andmed/pug.jpg",
         "hind": 1000,
-        "info": "Iseloomult on mopsid stabiilse, tasakaaluka temperamedi ja vallatult sõbraliku iseloomuga."
+        "info": "Hoolimata suurusest on mopsid tugeva tahtega ja väga harva agressiivsed. Sobivad lastega peredele."
     }
 
 ];
@@ -60,7 +60,6 @@ const mineKontaktiLehele = () => {
 };
 
 
-//Kasutab jqueri
 //Loob iga koera jaoks jupi htmli koodi
 $(() => {
 
@@ -78,11 +77,12 @@ $(() => {
      
                         </div>
                     </div>
-                    <div>${koer.hind} €</div>
-                    <button id="btn" onclick="mineKontaktiLehele()" >Tellima</button>
+                    <div>${koer.hind} €</div>           
+                    <button id="btn" onclick="mineKontaktiLehele()" >Telli</button>
             </div>`
         );
 
     })
 });
+
 

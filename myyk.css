@@ -98,35 +98,13 @@ body {
     border: none;
 }
 
+
 #btn:hover {
     color: white;
 }
 
-#btn:focus{
+
+#btn:focus {
     outline: none;
 }
 
-#otsing{
-    padding-top: 40px;
-    text-align: center;
-    border: none;
-}
-
-#sisend:focus{
-    outline: none;
-}
-
-#otsing input{
-    font-size: 20px;
-    border-radius: 10px;
-    border: none;
-}
-
-#nupp{
-    border-radius: 10px;
-    padding: 5px;
-}
-
-#nupp:focus{
-    outline: none;
-}
