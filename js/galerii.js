@@ -66,7 +66,6 @@ const pildid = [
     },
 ];
 
-//Kasutab jqueri
 //Loob jupi koodi iga pildi jaoks.
 $(() => {
 

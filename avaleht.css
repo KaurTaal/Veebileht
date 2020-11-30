@@ -1,9 +1,4 @@
 body {
-    background: url(andmed/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     width: 100%;
     height: 100%;
     font-family: "Courier New";
@@ -18,13 +13,22 @@ body {
     flex-direction: column;
 }
 
+.taust1 {
+	background: url(andmed/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+.taust2 {
+	background: url(andmed/merle_taust2_cc.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
 h1 {
     margin: 0px;
     margin-top: 20px;
     padding: 40px;
     text-align: center;
     font-size: 100px;
-	color: white;
 }
 
 h2 {
@@ -33,7 +37,6 @@ h2 {
     padding: 20px;
     text-align: center;
     font-size: 50px;
-	color: white;
 }
 
 p {
@@ -41,39 +44,26 @@ p {
     padding: 10px;
     text-align: center;
     font-size: 25px;
-	color: white;
 }
 
-p.tyhi {
+.valge_tekst {
+	color:white;
+}
+
+.tyhjus {
 	margin-bottom: 60%;
 }
 
-.column {
+.tulp {
     float: left;
 }
-
-.vasak {
+.tulp.kitsas {
     width: 25%;
 }
-
-.parem {
+.tulp.lai {
     width: 75%;
 }
 
-.vahe {
+.vaheriba {
 	background-color: white;
-}
-
-.must {
-	color: black;
-}
-
-.taust1 {
-	background: url(andmed/entlebuhh_taust_cc.jpg) no-repeat center center fixed;
-	background-size: 100% 100%
-}
-
-.taust2 {
-	background: url(andmed/merle_taust2_cc.jpg) no-repeat center center fixed;
-	background-size: 100% 100%
 }
